@@ -30,7 +30,6 @@ export default function App() {
   }, []);
 
   const applySearchAndFilters = async () => {
-    setLoading(true);
     try {
       let results = productos;
 
@@ -49,8 +48,6 @@ export default function App() {
     } catch (error) {
       console.error("Error en búsqueda y filtros:", error);
       setFilteredProducts([]);
-    }finally{
-      setLoading(false);
     }
   };
 

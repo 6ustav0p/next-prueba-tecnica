@@ -46,18 +46,17 @@ export const ProductList = ({ productos }: Props) => {
 
   return (
     <div className="flex flex-col items-center justify-center px-6 min-h-screen bg-gray-100 dark:bg-gray-900">
-      <button
-        onClick={() => router.push("/product/new")}
-        className="cursor-pointer w-full max-w-4xl bg-blue-600 mt-12 text-white font-semibold py-3 rounded-lg shadow-md hover:bg-blue-700 transition-all mb-6"
-      >
-        Crear Producto
-      </button>
-
-      <div className="w-full max-w-6xl flex justify-end mb-6 items-center gap-3">
-        <span className="text-gray-600 dark:text-gray-400 text-sm">
-          Organizar por:
-        </span>
-        <div className="relative">
+      <div className="w-full max-w-6xl flex justify-between  mb-6 items-center gap-3">
+        <button
+          onClick={() => router.push("/product/new")}
+          className="cursor-pointer w-fit px-4 max-w-4xl bg-blue-600 mt-8 text-white font-semibold py-3 rounded-lg shadow-md hover:bg-blue-700 transition-all mb-6"
+        >
+          Crear Producto
+        </button>
+        <div className="flex items-center relative gap-2 h-full">
+          <span className="text-gray-600 dark:text-gray-400 text-sm">
+            Organizar por:
+          </span>
           <select
             onChange={(e) => setSortOption(e.target.value)}
             className="bg-white dark:bg-gray-800 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded-lg py-2 px-4 pr-10 shadow-md focus:outline-none focus:ring focus:ring-blue-300 appearance-none"
