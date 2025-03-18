@@ -1,4 +1,4 @@
-# 🛒 Gusta-Shop
+# Gusta-Shop
 
 Gusta-Shop es una aplicación web para la gestión de productos en una tienda. Permite agregar, editar, eliminar y buscar productos con opciones de filtrado y paginación.  
 
@@ -6,14 +6,14 @@ Gusta-Shop es una aplicación web para la gestión de productos en una tienda. P
 
 ##  **Características**
 
-✔️ Listado de productos con paginación y ordenamiento.  
-✔️ Buscador en tiempo real por nombre y código con sugerencias.  
-✔️ Filtros avanzados (cantidad, fecha de creación, etc.).  
-✔️ Creación, edición y eliminación de productos con validaciones.  
-✔️ Diseño responsivo con modo claro/oscuro.  
-✔️ Carga de datos simulada con JSON Server.  
-✔️ Interfaz moderna con Tailwind CSS y React.  
-✔️ Indicador de carga (loader) en las solicitudes.  
+- Listado de productos con paginación y ordenamiento.  
+- Buscador en tiempo real por nombre y código con sugerencias.  
+- Filtros avanzados (cantidad, fecha de creación, etc.).  
+- Creación, edición y eliminación de productos con validaciones.  
+- Diseño responsivo con modo claro/oscuro.  
+- Carga de datos simulada con JSON Server.  
+- Interfaz moderna con Tailwind CSS y React.  
+- Indicador de carga (loader) en las solicitudes.  
 
 ---
 
@@ -68,11 +68,11 @@ npm run dev
 ```
 
 🔹 Esto ejecutará:
-- 📌 **JSON Server** en `http://localhost:5000`
-- 📌 **Next.js** en `http://localhost:3000`
+-  **JSON Server** en `http://localhost:5000`
+-  **Next.js** en `http://localhost:3000`
 
 ---
 
 ### **5 Abrir en el navegador**
 La aplicación se ejecutará en:  
-📌 [http://localhost:3000](http://localhost:3000)
+ [http://localhost:3000](http://localhost:3000)
