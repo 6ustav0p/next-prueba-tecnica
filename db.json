@@ -1,0 +1,74 @@
+{
+  "productos": [
+    {
+      "id": "201",
+      "nombre": "Laptop Gamer",
+      "descripcion": "Laptop con procesador Intel i7 y tarjeta gráfica RTX 3060",
+      "cantidad": "5",
+      "creacion": "2025-03-18"
+    },
+    {
+      "id": "202",
+      "nombre": "Mouse Inalámbrico",
+      "descripcion": "Mouse ergonómico con conexión Bluetooth",
+      "cantidad": "12",
+      "creacion": "2025-03-16"
+    },
+    {
+      "id": "203",
+      "nombre": "Teclado Mecánico RGB",
+      "descripcion": "Teclado con switches azules y retroiluminación RGB",
+      "cantidad": "8",
+      "creacion": "2025-03-15"
+    },
+    {
+      "id": "204",
+      "nombre": "Monitor 27'' 144Hz",
+      "descripcion": "Pantalla con resolución 2K y tasa de refresco de 144Hz",
+      "cantidad": "3",
+      "creacion": "2025-03-14"
+    },
+    {
+      "id": "205",
+      "nombre": "Impresora Multifunción",
+      "descripcion": "Impresora con escáner y conexión Wi-Fi",
+      "cantidad": "4",
+      "creacion": "2025-03-13"
+    },
+    {
+      "id": "206",
+      "nombre": "Disco SSD 1TB",
+      "descripcion": "Unidad de estado sólido NVMe para mayor velocidad",
+      "cantidad": "15",
+      "creacion": "2025-03-12"
+    },
+    {
+      "id": "207",
+      "nombre": "Memoria RAM 16GB",
+      "descripcion": "Módulo de memoria DDR4 3200MHz",
+      "cantidad": "10",
+      "creacion": "2025-03-11"
+    },
+    {
+      "id": "208",
+      "nombre": "Cámara Web 1080p",
+      "descripcion": "Cámara Full HD con micrófono integrado",
+      "cantidad": "7",
+      "creacion": "2025-03-10"
+    },
+    {
+      "id": "209",
+      "nombre": "Micrófono Profesional",
+      "descripcion": "Micrófono de condensador para grabaciones de alta calidad",
+      "cantidad": "6",
+      "creacion": "2025-03-09"
+    },
+    {
+      "id": "210",
+      "nombre": "Router Wi-Fi 6",
+      "descripcion": "Router de última generación con cobertura extendida",
+      "cantidad": "9",
+      "creacion": "2025-03-08"
+    }
+  ]
+}
