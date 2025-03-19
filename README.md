@@ -32,7 +32,7 @@ Gusta-Shop es una aplicación web para la gestión de productos en una tienda. P
 ### **1 Clonar el repositorio**
 ```bash
 git clone https://github.com/6ustav0p/next-prueba-tecnica.git
-cd gusta-shop
+cd next-prueba-tecnica
 ```
 
 ---
@@ -48,9 +48,6 @@ npm install
 ### **3 Configurar variables de entorno**
 Copia el archivo `.env.template` y renómbralo como `.env`, luego agrega los valores correctos:
 
-```bash
-cp .env.template .env
-```
 
 Ejemplo de `.env`:
 ```env
